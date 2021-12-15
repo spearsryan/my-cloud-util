@@ -57,7 +57,7 @@ async function update(functions) {
 		}
 
 		if (mod != 0) {
-			await _processBatch(functions.slice(evenBatch, functions.length))
+			await _processBatch(functions.slice(evenBatch, functions.length));
 		}
 	} else {
 		await _processBatch(functions);

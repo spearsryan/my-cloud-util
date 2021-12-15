@@ -1,8 +1,8 @@
 {
-  "name": "my-cloud-utils",
+  "name": "my-cloud-util",
   "version": "1.0.0",
   "description": "",
-  "main": "my-cloud-utils.js",
+  "main": "my-cloud-util.js",
   "bin": {
     "gcu": "./my-cloud-utils.js"
   },

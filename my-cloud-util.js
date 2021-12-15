@@ -19,7 +19,7 @@ program.command('update-lambda-code')
 			functions = [{
 				name: options.functionName,
 				sourceList: options.sourceList.split(',')
-			}]
+			}];
 		} else {
 			throw new Error('Config file or function name and source list required!');
 		}
