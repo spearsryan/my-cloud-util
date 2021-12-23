@@ -22,7 +22,7 @@ async function _processBatch(batch) {
 
 			var lambda = new AWS.Lambda({
 				apiVersion: '2015-03-31',
-				region: 'us-east-1'
+				region: 'us-east-2'
 			});
 
 			var params = {
